@@ -1,3 +1,30 @@
-body {
-  text-transform: capitalize;
+/* anonymous-pro-regular - latin */
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../src/fonts/anonymous-pro-v14-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../src/fonts/anonymous-pro-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("../src/fonts/anonymous-pro-v14-latin-regular.woff2") format("woff2"), url("../src/fonts/anonymous-pro-v14-latin-regular.woff") format("woff"), url("../src/fonts/anonymous-pro-v14-latin-regular.ttf") format("truetype"), url("../src/fonts/anonymous-pro-v14-latin-regular.svg#AnonymousPro") format("svg");
+  /* Legacy iOS */
 }
+
+html {
+  color: red;
+  font-family: "Anonymous Pro";
+}
+
+#content header h1 {
+  text-align: center;
+}
+
+#content nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#content nav ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
